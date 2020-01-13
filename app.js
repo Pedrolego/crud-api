@@ -4,7 +4,7 @@ var bodyParser = require ('body-parser');
 var mongoose = require ('mongoose');
 var Livro = require ('./model/bookModel');
 
-mongoose.connect('mongodb+srv://admin920:sougay@cluster0-kxpgj.mongodb.net/test?retryWrites=true&w=majority',{
+mongoose.connect(',{
      useNewUrlParser: true ,
      useUnifiedTopology: true 
 });
